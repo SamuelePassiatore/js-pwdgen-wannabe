@@ -41,6 +41,10 @@ const favColor = prompt('Qual è il tuo colore preferito?', 'Verde');
 const newPassword = userName + userSurname + favColor + finalNumber;
 ////console.log(newPassword);
 
+// Inserisco il risultato nel password element del DOM 
+passwordElement.innerText = ' ' + newPassword;
+////console.log(passwordElement);
+
 
 
 
