@@ -37,6 +37,9 @@ const userSurname = prompt('Qual è il tuo cognome?', 'Bonaparte');
 const favColor = prompt('Qual è il tuo colore preferito?', 'Verde');
 ////console.log(favColor);
 
+// Sommo tutte le variabili come stringa
+const newPassword = userName + userSurname + favColor + finalNumber;
+////console.log(newPassword);
 
 
 
